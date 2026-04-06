@@ -1,0 +1,32 @@
+name: Relatório de Bug
+description: Crie um relatório para nos ajudar a melhorar o template.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por relatar um bug! Por favor, forneça o máximo de detalhes possível.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: O que aconteceu?
+      description: Além disso, diga-nos o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Passos para reproduzir
+      description: Como podemos reproduzir o erro?
+      placeholder: |
+        1. Vá para...
+        2. Clique em...
+        3. Veja o erro...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Navegador, Sistema Operacional, etc.

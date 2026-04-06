@@ -1,0 +1,22 @@
+name: Solicitação de Recurso
+description: Sugira uma ideia para este projeto.
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Qual é a sua sugestão?
+      description: Uma descrição clara e concisa da funcionalidade desejada.
+    validations:
+      required: true
+  - type: textarea
+    id: problem-solved
+    attributes:
+      label: Que problema você quer resolver?
+      description: Explique como isso ajudaria.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Alguma ideia de como resolver isso de outra forma?
